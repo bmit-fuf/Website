@@ -1,0 +1,172 @@
+* {
+  font-family:'Comic Sans MS', Times, serif;
+  color: #000;
+}
+
+ body {background-image: url("../images/background.jpeg");
+background-repeat: no-repeat;
+background-size: 1920px 1080px; 
+background-attachment: fixed;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:0px
+}
+.rand {
+text-align: center;
+}
+.ligma {
+  width: 50%;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 60px; /* bottom has to be the same as footer height */
+}
+footer {
+    
+    background-color: #333;
+    padding:14px 16px;
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+}
+footer a {
+float:left
+
+}
+footer a{
+color: #f2f2f2;   
+}
+footer a:hover{
+color:#000; 
+  
+}
+footer ul{
+float: left																																	   
+}
+footer li{
+margin-right: 10px;
+display: inline-flex;   
+}
+footer p {
+text-align: right;
+margin-right: 20px;
+color: #f2f2f2;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+css {
+  width: 100%;
+  height: 100%;
+}
+.position {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#workarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  font-family: Comic sans ms;
+}
+.spot {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.svg-wrapper {
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+#text {
+  margin-top: -35px;
+  text-align: center;
+}
+
+#text a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0; 
+}
+.strokecolor
+{
+stroke: #ff3333;
+}
+.strokecolor2
+{
+stroke: #06D6A0;
+}
+.body {
+  text-align: center; 
+}
+
+#namanyay-search-btn {
+background:#0099ff;
+color:white;
+font: 'trebuchet ms', trebuchet;
+padding:10px 20px;
+border-radius:0 5px 5px 0;
+-moz-border-radius:0 5px 5px 0;
+-webkit-border-radius:0 5px 5px 0;
+-o-border-radius:0 5px 5px 0;
+border:0 none;
+font-weight:bold;
+}
+ 
+#namanyay-search-box {
+background: #eee;
+padding:10px;
+ border-radius:5px 0 0 5px;
+-moz-border-radius:5px 0 0 5px;
+-webkit-border-radius:5px 0 0 5px;
+-o-border-radius:5px 0 0 5px;
+border:0 none;
+width:160px;
+right: 60px
+ }

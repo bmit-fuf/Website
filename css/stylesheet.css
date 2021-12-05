@@ -1,0 +1,264 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  color: #000;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+/*background image*/
+body {
+    background-image: url("../images/despacito.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+}
+/*background image*/
+/*TopNavigation*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+.topnav a {
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:0px
+}
+.rand {
+text-align: center;
+}
+.ligma {
+  width: 50%;
+}
+.hasan {
+ text-align:right;
+ margin-right:20 px; 
+}
+/*TopNavigation*/
+/*FooterNav*/
+body {
+    margin: 0 0 60px; /* bottom has to be the same as footer height */
+}
+footer {
+    
+    background-color: #333;
+    padding:14px 16px;
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+}
+footer a {
+float:left
+
+}
+footer a{
+color: #f2f2f2;   
+}
+footer a:hover{
+color:#000; 
+  
+}
+footer ul{
+float: left																																	   
+}
+footer li{
+margin-right: 10px;
+display: inline-flex;   
+}
+footer p {
+text-align: right;
+margin-right: 20px;
+color: #f2f2f2;
+}
+/*FooterNav*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+css {
+  width: 100%;
+  height: 100%;
+}
+/*TopNavigation Animation*/
+.position {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#workarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  font-family: Comic sans ms;
+}
+.spot {
+  float: right;
+  position: absolute;
+  /* width: 100%;*/
+  /*height: 100%;*/
+  /*top: 0;
+  left: 0;*/
+}
+.svg-wrapper {
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+#text {
+  margin-top: -35px;
+  text-align: center;
+}
+
+#text a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0; 
+}
+.strokecolor
+{
+stroke: #ff3333;
+}
+.strokecolor2
+{
+stroke: #06D6A0;
+}
+.body {
+  text-align: center; 
+}
+/*TopNavigation Animation*/
+/*Searchengine with PHP(not used at the moment)*/
+#namanyay-search-btn {
+background:#0099ff;
+color:white;
+font: 'trebuchet ms', trebuchet;
+padding:10px 20px;
+border-radius:0 5px 5px 0;
+-moz-border-radius:0 5px 5px 0;
+-webkit-border-radius:0 5px 5px 0;
+-o-border-radius:0 5px 5px 0;
+border:0 none;
+font-weight:bold;
+}
+ 
+#namanyay-search-box {
+background: #eee;
+padding:10px;
+ border-radius:5px 0 0 5px;
+-moz-border-radius:5px 0 0 5px;
+-webkit-border-radius:5px 0 0 5px;
+-o-border-radius:5px 0 0 5px;
+border:0 none;
+width:160px;
+right: 60px;
+ }
+ /*Searchengine with PHP(not used at the moment)*/
+/*Bootstrap/Responsive*/
+/*for a responsive background*/
+ @media screen and (min-width: 562px){
+  html, body{
+    border: 0;
+    height: 100%;
+    margin: 0;
+    /* insert background */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /*for a responsive background*/
+ }
+ /* for a responsive TopNav(it just hides when you're on mobile)*/
+ @media screen and (max-width: 561px){
+ .topnav,
+ .topnav a {
+    visibility: hidden;
+    font-size: 0px;
+    text-decoration: none;
+    list-style-type: none; 
+    /* for a responsive TopNav(it just hides when you're on mobile)*/ 
+ }
+ }
+ @media screen and (min-width: 561px){
+    .button
+ {
+    visibility: hidden;
+    font-size: 0px;
+    text-decoration: none;
+    list-style-type: none;  
+ }
+ }
+ /* hamburger navigation, doesnt work at the moment, need to be fixed*/
+.hamburger--emphatic {
+  overflow: hidden; }
+  .hamburger--emphatic .hamburger-inner {
+    transition: background-color 0.125s 0.175s ease-in; }
+    .hamburger--emphatic .hamburger-inner::before {
+      left: 0;
+      transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in; }
+    .hamburger--emphatic .hamburger-inner::after {
+      top: 10px;
+      right: 0;
+      transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in; }
+  .hamburger--emphatic.is-active .hamburger-inner {
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: transparent !important; }
+    .hamburger--emphatic.is-active .hamburger-inner::before {
+      left: -80px;
+      top: -80px;
+      transform: translate3d(80px, 80px, 0) rotate(45deg);
+      transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .hamburger--emphatic.is-active .hamburger-inner::after {
+      right: -80px;
+      top: -80px;
+      transform: translate3d(-80px, 80px, 0) rotate(-45deg);
+      transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1); }
+   /* hamburger navigation, doesnt work at the moment, need to be fixed*/
+ /*Bootstrap/Responsive*/
+ /* for Login, that it moves to the right*/
+.bruh{
+  padding-top: 100px;
+  font-size: 30px;
+  color: #eee;
+}
+ /* for Login, that it moves to the right*/
+ body > form:nth-child(2) > input:nth-child(1) {
+  margin-top: 100px;
+ }
+
+ body > p:nth-child(1) {
+  margin-top: 100px;
+  font-size: 100px;
+ }
+ 

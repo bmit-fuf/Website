@@ -1,0 +1,153 @@
+body{
+    background-color: f9f9fa;
+    color: #3c4650;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.blockheader{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff; 
+}
+.username{
+    height: 44px;
+    font-size: 14px;
+    border: 1px solid #d7d9db;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #9da2a7;
+    opacity: 1;
+    border: 1px solid;
+    border-color: #edeeef;
+    border-radius: 4px;
+    width: 216px;
+}
+.forallblocks{
+    padding: 10px;
+    text-align: center;
+}
+.overlay{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 44px;
+    border: 1px solid;
+    border-color: #edeeef;
+    border-radius: 4px;
+    box-shadow: 0 0 0 3px #d9d9d9;
+
+}
+.username:focus{
+    border-color: black;
+}
+.divbtn{
+    padding-top: 30px;
+}
+.buttonorini{
+    text-align: center;
+    padding: 5px;
+    background-color: #35a5e6;
+    font-weight: 700;
+    color: white;
+    border-block-color: #35a5e6;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: none;
+    width: 120px;
+}
+.smolfont{
+    padding-top: 20px;
+    font-size: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.logo{
+    height: 100px;
+    padding-top: 10px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.bubble{
+    visibility: hidden;
+    height: 75px;
+    position: absolute;;
+    padding-left: 517px;
+    z-index: 2;
+}
+.bubble:hover{
+    visibility: visible
+}
+input.username.forallblocks:focus{
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white
+}
+div.overlay{
+    margin-top: 25px;
+}
+@media screen and (max-width:575.98px){
+    div.overlay{
+
+        width: 100%;
+        height: 100%;
+        
+        margin-top: 0px;
+        position: absolute;
+        overflow: auto;
+        
+    }
+    html{
+        margin: 0px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    body{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        margin-top: 0px;
+        
+    }
+}
+
+
+.help-block{
+    
+    padding: 11px 12px;
+    border-radius: 4px;
+    text-align: center;
+    color: #3c4650;
+    
+    font-size: 14px;
+}
+.active{
+    background-color: #fbd5d3; !important;
+}
+.diverror{
+    margin-bottom: 22px;
+}
+
+
+
+
+
+.typcn {
+    position: relative;
+    color: #3b476b;
+    font-size: 22px;
+    cursor: pointer;
+  }      
+  
+  .typcn.active {
+    color: #7f60eb;
+  }
+
